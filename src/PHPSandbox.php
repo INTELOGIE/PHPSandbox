@@ -2735,15 +2735,7 @@
             $this->definitions['variables'][$name] = $value;
             return $this;
         }
-        
-         public function getDefinedVar($name) {
-            if (array_key_exists($name, $this->definitions['variables'])) {
-                return $this->definitions['variables'][$name];
-            } else {
-                return NULL;
-            }            
-        }
-
+                 
         /** Define PHPSandbox variables by array
          *
          * You can pass an associative array of variables to define
